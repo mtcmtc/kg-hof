@@ -16,7 +16,7 @@
 				class={`mx-auto lg:max-w-600px ${ layer === 4 ? 'bg-gradient-to-t from-black via-black to-transparent' : ''}`}
 			>
 				<img
-					src="{path}tw21-kg_header_layer_{layer}.png"
+					src="{path}tw21-kg_header_layer_opt_{layer}.png"
 					alt="parallax layer {layer}"
 				>
 			</div>

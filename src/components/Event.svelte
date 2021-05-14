@@ -22,12 +22,12 @@
 		<p class="text-xl md:text-3xl font-black tracking-wider uppercase mb-2 md:mb-4 ">{name}</p>
 		{#if content.image}
 		<div class='first:mt-0 last:mb-0 my-5'>
-			<a on:click={e => handleImage(e, data)} href={content.image}><img class="w-full" src={content.image} alt={name} /></a>
+			<a on:click={e => handleImage(e, data)} href={content.image}><img class="w-full border-4 border-green-800" src={content.image} alt={name} /></a>
 		</div>
 		{/if}
 		{#if content.video}
 		<div class='first:mt-0 last:mb-0 my-5'>
-			<YTEmbed vid={content.video}/>
+			<div class="border-4 border-green-800"><YTEmbed vid={content.video}/></div>
 		</div>
 		{/if}
 		{#if content.tweet}

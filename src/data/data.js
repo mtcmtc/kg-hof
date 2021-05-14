@@ -2,7 +2,7 @@ export default {
 	hero : {
 		title: "KG Hall of Fame Series",
 		id: "hero",
-		video: "ybIvP0P9cLI"
+		video: "2gozUplZA6Q"
 	},
 	timeline:{
 		title: "Timeline",
@@ -121,7 +121,7 @@ export default {
 				name: "Awarded MVP",
 				content: {
 					image : "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_mvp.jpg",
-					video: "",
+					video: "ZeC_caH1AEA",
 					tweet: "",
 				},
 			},
@@ -224,7 +224,7 @@ export default {
 		video: "mmN_IdO2wiU",
 		cta: {
 			title: "Upload Your Message",
-			link: "https://www.nba.com/timberwolves",
+			link: "https://gf.fan/timberwolves/kg",
 		},
 	},
 	etw: {
