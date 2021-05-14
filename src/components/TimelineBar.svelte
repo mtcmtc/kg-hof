@@ -1,0 +1,1 @@
+<div class="timeline h-full w-2 bg-green-800 absolute left-4 md:left-0 md:right-0 mx-auto"></div>
