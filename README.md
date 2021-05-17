@@ -1,6 +1,6 @@
 # tw21-kg
 
-This is the Kevin GarnetT hall of fame repo.
+This is the Kevin Garnett hall of fame repo.
 
 ## Get started
 
