@@ -207,7 +207,7 @@ export default {
 				},
 			},
 			{
-				date: "May 15, 2020",
+				date: "May 15, 2021",
 				name: "Hall of Fame Induction",
 				content: {
 					image: "",
