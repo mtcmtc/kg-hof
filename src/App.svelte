@@ -45,15 +45,16 @@
 		loadImage(images)
 		.then(function (allImgs) {
 		    console.log(allImgs.length, 'images loaded!', allImgs);
+		    handleRender();
 		})
 		.catch(function (err) {
 		    console.error('One or more images have failed to load.');
 		    console.error(err.errored);
 		    console.info('But these loaded fine:');
 		    console.info(err.loaded);
+		    handleRender();
 		});
 
-		handleRender();
 	})
 </script>
 
