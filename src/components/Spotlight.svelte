@@ -1,6 +1,6 @@
 <script>
 	import { fade } from 'svelte/transition';
-	const path = 'https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/'
+	const path = '../assets/'
 	const layers = [1, 2, 3, 4, 5];
 
 	let y;
@@ -25,7 +25,7 @@
 	<div class="text-container relative w-full text-center box-border pointer-events-none flex flex-col items-center justify-between border-b-8 border-green-800 bg-gradient-to-t from-black via-transparent to-transparent overflow-hidden">
 		<div class="absolute max-w-100px md:max-w-200px right-3 md:top-4 md:right-5 text-right text-white top-0">
 			<span class="text-xs uppercase top-1 relative font-bold">Presented By</span>
-			<img class="w-full" alt="star tribune" src="https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/strib-logo.svg">
+			<img class="w-full" alt="star tribune" src="../assets/strib-logo.svg">
 		</div>
 		<span class="absolute font-bold animate-pulse mt-5 text-white block uppercase font-medium text-center text-sm" style="opacity: {1 - Math.max(0, y / 40)}">
 			scroll down
@@ -34,13 +34,13 @@
 	    </svg>
 		</span>
 		<div class="mx-auto lg:max-w-600px">
-			<img class="invisible" src="https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_header_layer_4.png" alt="parallax layer 4 placeholder">
+			<img class="invisible" src="../assets/header-placeholder.jpg" alt>
 		</div>
 		<div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black to-transparent">
-			<img class="mx-auto lg:h-auto lg:w-1/2" src="https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_header_layer_copy.png" alt="parallax layer copy">
+			<img class="mx-auto lg:h-auto lg:w-1/2" src="../assets/tw21-kg_header_layer_copy.png" alt="parallax layer copy">
 		</div>
 		<div class="absolute mix-blend-screen w-full top-0 left-0">
-			<img class="w-full" src="https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_header_layer_lighting.png" alt="parallax layer lighting">
+			<img class="w-full" src="../assets/tw21-kg_header_layer_lighting.png" alt="parallax layer lighting">
 		</div>
 	</div>
 </section>

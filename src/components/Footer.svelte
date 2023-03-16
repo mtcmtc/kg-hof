@@ -1,7 +1,7 @@
 <footer class="bg-black text-white body-font relative border-t-8 border-green-800 z-10">
   <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
     <a href="https://www.nba.com/timberwolves" class="max-w-1/4">
-      <img class="w-full max-w-100px" src="https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_roy/MIN_logo.svg" alt="Minnesota Timberwolves Footer Logo">
+      <img class="w-full max-w-100px" src="https://cdn.nba.com/teams/static/timberwolves/images/logo/Wolves_Primary_Color.png" alt="Minnesota Timberwolves Footer Logo">
     </a>
     <a href="https://www.nba.com/timberwolves" rel="noopener noreferrer" target="_blank" class="uppercase md:ml-2">© 2021 Minnesota Timberwolves</a>
     <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 items-center justify-center sm:justify-start">

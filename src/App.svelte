@@ -19,7 +19,7 @@
 
 	import Marketo from "./components/Marketo.svelte"
 
-	let { hero, timeline, ugc, etw } = data;
+	let { hero, timeline, ugc } = data;
 
 	let loading = true;
 
@@ -44,8 +44,7 @@
 
 		loadImage(images)
 		.then(function (allImgs) {
-		    // console.log(allImgs.length, 'images loaded!', allImgs);
-		    handleRender();
+		    console.log(allImgs.length, 'images loaded!', allImgs);
 		})
 		.catch(function (err) {
 		    console.error('One or more images have failed to load.');
@@ -53,6 +52,8 @@
 		    console.info('But these loaded fine:');
 		    console.info(err.loaded);
 		});
+
+		handleRender();
 	})
 </script>
 
@@ -82,16 +83,6 @@
 			</div>
 		</div>
 	</Section>
-	<Section id={etw.id} class="bg-black py-10 text-white">
-		<div class="md:max-w-600px mx-auto text-center">
-			<h2 class="text-4xl font-bold uppercase mb-2">{etw.title}</h2>
-			<p class="text-xl tracking-wide mb-4">{etw.desc}</p>
-			<div class="flex flex-wrap">
-				<div class="order-2 md:w-1/2"><Marketo data={etw.marketo}/></div>
-				<div class="order-1 md:order-2 md:w-1/2"><img src={etw.image} alt={etw.desc}/></div>
-			</div>
-		</div>
-	</Section>
 
 	{#if loading}
 		<Loading />
@@ -107,7 +98,7 @@
 		margin: 0;
 		padding: 0;
 		background-color: #000;
-		background-image: url(https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_header_plx_bg.jpg);
+		background-image: url(../assets/tw21-kg_header_plx_bg.png);
 		background-size: 100% auto;
 		-webkit-background-size: 100% auto;
 		-moz-background-size: 100% auto;

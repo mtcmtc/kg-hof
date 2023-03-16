@@ -21,7 +21,7 @@ export default {
 				date: "June 26, 1995",
 				name: "KG Declares for the NBA Draft",
 				content: {
-					image: "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_si.jpeg",
+					image: "../assets/tw21-kg_si.jpeg",
 					video: "",
 					tweet: "",
 				},
@@ -57,7 +57,7 @@ export default {
 				date: "1997",
 				name: "Air Garnett I Drops",
 				content: {
-					image: "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_air.jpg",
+					image: "../assets/tw21-kg_air.jpg",
 					video: "",
 					tweet: "",
 				},
@@ -75,7 +75,7 @@ export default {
 				date: "April 10, 1997",
 				name: "Clinched First Playoff Berth",
 				content: {
-					image : "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_playoffs.jpg",
+					image : "../assets/tw21-kg_playoffs.jpg",
 					video: "",
 					tweet: "",
 				},
@@ -85,15 +85,15 @@ export default {
 				name: "Oop from God to Kobe",
 				content: {
 					image: "",
-					video: "siQpB7EURLk",
-					tweet: "",
+					video: "",
+					tweet: "<blockquote class='twitter-tweet'><p lang='en' dir='ltr'>&quot;I always call it &#39;The Alley-Oop from God.&#39;&quot; <br>-- KG to Kobe, All-Star &#39;98 <a href='https://t.co/2YXflPY3Ur'>pic.twitter.com/2YXflPY3Ur</a></p>&mdash; Minnesota Timberwolves (@Timberwolves) <a href='https://twitter.com/Timberwolves/status/1222975248364187648?ref_src=twsrc%5Etfw'>January 30, 2020</a></blockquote>",
 				},
 			},
 			{
 				date: "April 26, 1998",
 				name: "First Playoff Win",
 				content: {
-					image: "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_firstwin.jpg",
+					image: "../assets/tw21-kg_firstwin.jpg",
 					video: "",
 					tweet: "",
 				},
@@ -102,7 +102,7 @@ export default {
 				date: "October 1, 2000",
 				name: "Olympic Gold",
 				content: {
-					image : "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_olympics.jpg",
+					image : "../assets/tw21-kg_olympics.jpg",
 					video: "",
 					tweet: "",
 				},
@@ -120,7 +120,7 @@ export default {
 				date: "May 4, 2004",
 				name: "Awarded MVP",
 				content: {
-					image : "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_mvp.jpg",
+					image : "../assets/tw21-kg_mvp.jpg",
 					video: "ZeC_caH1AEA",
 					tweet: "",
 				},
@@ -129,7 +129,7 @@ export default {
 				date: "April 30, 2004",
 				name: "First Playoff Series Win",
 				content: {
-					image : "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_advance.jpg",
+					image : "../assets/tw21-kg_advance.jpg",
 					video: "",
 					tweet: "",
 				},
@@ -138,7 +138,7 @@ export default {
 				date: "May 19, 2004",
 				name: "Game 7 vs Sacramento",
 				content: {
-					image : "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_game7.jpg",
+					image : "../assets/tw21-kg_game7.jpg",
 					video: "03r6R4WF7t0",
 					tweet: "",
 				},
@@ -156,7 +156,7 @@ export default {
 				date: "June 16, 2008",
 				name: "Boston Wins Championship",
 				content: {
-					image : "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_championship.gif",
+					image : "../assets/tw21-kg_championship.gif",
 					video: "",
 					tweet: "",
 				},
@@ -174,7 +174,7 @@ export default {
 				date: "February 19, 2015",
 				name: "Traded back to Minnesota",
 				content: {
-					image: "https://www.nba.com/resources/static/team/v2/timberwolves/projects/2020-21/tw21_kg/tw21-kg_return.jpg",
+					image: "../assets/tw21-kg_return.jpg",
 					video: "D_eJuCfzPxM",
 					tweet: "",
 				},
